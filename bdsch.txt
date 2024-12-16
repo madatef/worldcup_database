@@ -1,0 +1,9 @@
+                                      Table "public.games"
+ Column  |         Type          | Collation | Nullable |                Default                 
+---------+-----------------------+-----------+----------+----------------------------------------
+ game_id | integer               |           | not null | nextval('games_game_id_seq'::regclass)
+ year    | integer               |           | not null | 
+ round   | character varying(50) |           | not null | 
+Indexes:
+    "games_pkey" PRIMARY KEY, btree (game_id)
+
